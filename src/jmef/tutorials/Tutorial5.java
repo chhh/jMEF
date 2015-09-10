@@ -28,9 +28,7 @@ public class Tutorial5{
         int n = 32;
 
         // Image/texture information (to be changed to fit your configuration)
-//		String input_folder  = "/Users/vincent/Documents/jMEF/input/";
         String inputFolder  = "resources";
-//		String output_folder = "/Users/vincent/Documents/jMEF/output/";
         String outputFolder = "out";
         String imageName = "Baboon";
 

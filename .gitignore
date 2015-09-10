@@ -1,4 +1,5 @@
 *.DS_Store
+target/
 
 ### Intellij ###
 # User-specific stuff:

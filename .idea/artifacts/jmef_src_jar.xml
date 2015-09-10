@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jmef-src:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jmef_src_jar</output-path>
+    <root id="archive" name="jmef-src_jar.jar">
+      <element id="dir-copy" path="$PROJECT_DIR$/src/main/java" />
+    </root>
+  </artifact>
+</component>

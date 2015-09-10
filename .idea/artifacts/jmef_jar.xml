@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="jmef:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/jmef_jar</output-path>
+    <root id="archive" name="jmef.jar">
+      <element id="module-output" name="jmef_my_fork" />
+    </root>
+  </artifact>
+</component>

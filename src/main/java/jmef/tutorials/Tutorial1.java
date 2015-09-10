@@ -343,7 +343,7 @@ public class Tutorial1 {
             vars[2][i] = Math.sqrt(bv);
         }
 
-        // Display ('\u00B1' is ± symbol)
+        // Display ('\u00B1' is +/- symbol)
         System.out.printf(Locale.ENGLISH, "            %13s   %13s   %13s\n", "Gaussian", "Poisson", "Binomial");
         System.out.printf(Locale.ENGLISH, "Gaussian    %6.4f\u00B1%6.4f   %6.4f\u00B1%6.4f   %6.4f\u00B1%6.4f \n", means[0][0], vars[0][0], means[0][1], vars[0][1], means[0][2], vars[0][2]);
         System.out.printf(Locale.ENGLISH, "Poisson     %6.4f\u00B1%6.4f   %6.4f\u00B1%6.4f   %6.4f\u00B1%6.4f \n", means[1][0], vars[1][0], means[1][1], vars[1][1], means[1][2], vars[1][2]);

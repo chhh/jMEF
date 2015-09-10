@@ -1,18 +1,18 @@
 package jmef.tutorials;
 
 import jmef.MixtureModel;
+import jmef.tools.Image;
 
 import java.awt.image.BufferedImage;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-import jmef.tools.Image;
-
-public class Tutorial5{
+public class Tutorial5 {
 
 
     /**
      * Main function.
+     *
      * @param args
      */
     public static void main(String[] args) {
@@ -28,7 +28,7 @@ public class Tutorial5{
         int n = 32;
 
         // Image/texture information (to be changed to fit your configuration)
-        String inputFolder  = "resources";
+        String inputFolder = "resources";
         String outputFolder = "out";
         String imageName = "Baboon";
 
@@ -39,7 +39,7 @@ public class Tutorial5{
         System.out.println("ok");
 
         // Read or generate the mixture model
-        Path mixturePath  = Paths.get(outputFolder, String.format("%s_5D_%03d.mix", imageName, n)).toAbsolutePath();
+        Path mixturePath = Paths.get(outputFolder, String.format("%s_5D_%03d.mix", imageName, n)).toAbsolutePath();
         System.out.printf("Read/generate mixture model (%s): ", mixturePath.toString());
         MixtureModel f = Image.loadMixtureModel(mixturePath.toString(), image, 5, n);
         System.out.println("ok");
